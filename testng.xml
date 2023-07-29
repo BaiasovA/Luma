@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/BaiasovA/IdeaProjects/Luma">
+        <classes>
+            <class name="lumaQA.TestCreateAnAccount">
+                <methods>
+                    <include name="RegistrationForm"/>
+                    <include name="loginWithInvalidUsername"/>
+                    <include name="SignIn"/>
+                    <include name="signInValidCredentials"/>
+                    <include name="WhatsNew"/>
+                    <include name="HoodiesSweetShirts"/>
+                    <include name="MyAccount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
