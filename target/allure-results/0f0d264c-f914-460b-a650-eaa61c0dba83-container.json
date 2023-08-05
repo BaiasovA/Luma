@@ -1,1 +1,0 @@
-{"uuid":"0f0d264c-f914-460b-a650-eaa61c0dba83","name":"lumaQA.TestCreateAnAccount","children":["f84873c4-f753-40cf-af47-0f677a83f78d"],"befores":[{"name":"setUpBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1690015251643,"stop":1690015260552}],"afters":[],"start":1690015251510,"stop":1690015278145}

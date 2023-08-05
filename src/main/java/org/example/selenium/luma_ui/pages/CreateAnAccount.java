@@ -57,7 +57,11 @@ public class CreateAnAccount extends BasePage{
     }
 
     //result***********************************************************8
-    @FindBy(xpath = "//*[@id=\"firstname\"]")
-    public WebElement resultUserName;
+    @FindBy(xpath = "//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div")
+    public WebElement resultExistAccount;
+
+    @FindBy(id = "firstname")
+    public WebElement resultFirstName;
+
 }
 

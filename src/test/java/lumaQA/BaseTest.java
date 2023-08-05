@@ -13,6 +13,7 @@ public abstract class BaseTest {
     public CreateAnAccount createAnAccount;
     public SignIn signIn;
     public WhatsNew whatsNew;
+    public Women women;
     public HoodiesSweetshirts hoodiesSweetshirts;
 
     public MakaAnOrder makaAnOrder;
@@ -26,6 +27,7 @@ public abstract class BaseTest {
         whatsNew = new WhatsNew();
         hoodiesSweetshirts = new HoodiesSweetshirts();
         makaAnOrder = new MakaAnOrder();
+        women = new Women();
     }
 
 
